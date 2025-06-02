@@ -21,6 +21,7 @@ import Person2TwoToneIcon from '@mui/icons-material/Person2TwoTone';
 // import DocumentScannerTwoToneIcon from '@mui/icons-material/DocumentScannerTwoTone';
 
 import React from 'react';
+import { Suspense } from 'react';
 
 const Dashbord = React.lazy(() => import("../pages/Dashbord/Dashbord"));
 const Table = React.lazy(() => import("../pages/Table/Table"));
@@ -69,7 +70,7 @@ let AllRoute = [
      { path: '/*', element: 
           <Suspense fallback={<div>در حال بارگذاری...</div>}>
    <Suspense fallback={<div>در حال بارگذاری...</div>}>
-        <BigComponent />
+        <P404 />
       </Suspense>ّ
       </Suspense>
      },
