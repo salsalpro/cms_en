@@ -20,6 +20,8 @@ import Person2TwoToneIcon from '@mui/icons-material/Person2TwoTone';
 // import RocketLaunchTwoToneIcon from '@mui/icons-material/RocketLaunchTwoTone';
 // import DocumentScannerTwoToneIcon from '@mui/icons-material/DocumentScannerTwoTone';
 
+import React from 'react';
+
 const Dashbord = React.lazy(() => import("../pages/Dashbord/Dashbord"));
 const Table = React.lazy(() => import("../pages/Table/Table"));
 const Biling = React.lazy(() => import("../pages/Biling/Biling"));
