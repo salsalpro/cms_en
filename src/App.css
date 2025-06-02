@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f7f9fb !important;
+}
+
+.container-App {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.topBarwithroute {
+    width: 100%;
+    display: block;
+    padding: 0 24px 24px 24px;
+}
+
+a {
+    text-decoration: none !important;
+}

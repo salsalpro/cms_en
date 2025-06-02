@@ -1,0 +1,126 @@
+.Transaction-item {
+
+    padding: 0;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    opacity: 1;
+    background: transparent;
+    color: rgb(52, 71, 103);
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.Transaction-item-box-left-with-icon {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    opacity: 1;
+    background: transparent;
+    color: rgb(52, 71, 103);
+}
+
+.Transaction-item-box-left-with-icon .icon {
+    position: relative;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    outline: 0px;
+    margin: 0px;
+    cursor: pointer;
+    vertical-align: middle;
+    appearance: none;
+    text-decoration: none;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    letter-spacing: 0.02857em;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    font-weight: 700;
+    line-height: 1.4;
+    text-align: center;
+    text-transform: uppercase;
+    user-select: none;
+    transition: all 150ms ease-in 0s;
+    font-size: 2.5rem;
+    background-image: initial;
+    background-position-y: initial;
+    background-repeat: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: transparent;
+    border-radius: 10rem;
+    padding: 0.28125rem;
+    background-size: 150% !important;
+    background-position-x: 25% !important;
+}
+
+.Transaction-item-box-left-with-icon .icon.red{
+    color: rgb(234, 6, 6);
+}
+
+.Transaction-item-box-left-with-icon .icon.green{
+    color: rgb(234, 6, 6);
+}
+
+.Transaction-item .Transaction-item-box-left {
+    display: flex;
+    flex-direction: column;
+    opacity: 1;
+    background: transparent;
+    color: rgb(52, 71, 103);
+    padding-top: 8px;
+}
+
+.Transaction-item .Transaction-item-box-left .Transaction-item-title {
+    margin: 0px 0px 0.35em;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    letter-spacing: 0.02857em;
+    opacity: 1;
+    text-transform: none;
+    vertical-align: unset;
+    text-decoration: none;
+    color: rgb(52, 71, 103);
+    font-weight: 500;
+}
+
+.Transaction-item .Transaction-item-box-left .Transaction-item-time {
+    margin: 0px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 1.25;
+    letter-spacing: 0.03333em;
+    opacity: 1;
+    text-transform: none;
+    vertical-align: unset;
+    text-decoration: none;
+    color: rgb(103, 116, 142);
+}
+
+.Transaction-item .updown {
+    margin: 0px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    letter-spacing: 0.02857em;
+    opacity: 1;
+    text-transform: none;
+    vertical-align: unset;
+    text-decoration: none;
+    color: rgb(234, 6, 6);
+    font-weight: 500;
+    /* background-image: linear-gradient(310deg, rgb(234, 6, 6), rgb(255, 102, 124)); */
+    color: red;
+    /* display: inline-block; */
+    /* background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
+    position: relative;
+    z-index: 1;
+}

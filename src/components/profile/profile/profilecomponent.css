@@ -1,0 +1,88 @@
+.profilecomponent{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    min-height: 18.75rem;
+    opacity: 1;
+    color: rgb(52, 71, 103);
+    background: linear-gradient(310deg, rgba(33, 82, 255, 0.6), rgba(33, 212, 253, 0.6)) 50% center / cover, url('..//public/components/backprof.jpg') transparent;
+    border-radius: 1rem;
+    background-position: 50% center;
+    background-size: cover;
+}
+
+.profile-man{
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    width: 95%;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    position: absolute;
+    z-index: 1100;
+    left: auto;
+    right: 0px;
+    left: 0;
+    margin: 0 auto;
+    bottom: -20%;
+    box-shadow: rgba(255, 255, 255, 0.9) 0rem 0rem 0.0625rem 0.0625rem inset, rgba(0, 0, 0, 0.05) 0rem 1.25rem 1.6875rem 0rem;
+    backdrop-filter: saturate(200%) blur(1.875rem);
+    background-color: rgba(255, 255, 255, 0.8);
+    color: rgb(52, 71, 103);
+    min-height: 4.6875rem;
+    display: block;
+    -webkit-box-align: center;
+    align-items: center;
+    border-radius: 1rem;
+    padding: 0.5rem 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-man .image-user{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-left: 10px;
+}
+
+.profile-man .username {
+    margin: 0px;
+    font-size: 1.25rem;
+    line-height: 1.375;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    letter-spacing: 0em;
+    opacity: 1;
+    text-transform: none;
+    vertical-align: unset;
+    text-decoration: none;
+    color: rgb(52, 71, 103);
+    font-weight: 500;
+    display: block;
+}
+
+
+.profile-man .job-work{
+    display: block;
+    margin: 0px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    letter-spacing: 0.02857em;
+    opacity: 1;
+    text-transform: none;
+    vertical-align: unset;
+    text-decoration: none;
+    color: rgb(103, 116, 142);
+    font-weight: 500;
+}
+
+.profile-man .username-username-haneler{
+    top: 10px;
+}
+
+.profile-man .iconHandeler{
+    width: 50px;
+    height: 50px;
+    margin: 10px 15px;
+}

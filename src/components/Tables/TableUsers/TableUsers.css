@@ -1,0 +1,112 @@
+.table-in-tables {
+    border-radius: 1rem !important;
+
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms !important;
+    position: relative;
+    min-width: 0px;
+    overflow-wrap: break-word;
+    background-color: rgb(255, 255, 255);
+    background-clip: border-box;
+    border: 0px solid rgba(0, 0, 0, 0.125);
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.05) 0rem 1.25rem 1.6875rem 0rem !important;
+}
+
+.infoFullnameEmailTables .fullNameTables {
+    margin: 0px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    letter-spacing: 0.02857em;
+    opacity: 1;
+    text-transform: none;
+    vertical-align: unset;
+    text-decoration: none;
+    color: rgb(52, 71, 103);
+    font-weight: 500;
+}
+
+.infoFullnameEmailTables .emailTables {
+    margin: 0px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 1.25;
+    letter-spacing: 0.03333em;
+    opacity: 1;
+    text-transform: none;
+    vertical-align: unset;
+    text-decoration: none;
+    color: rgb(131, 146, 171);
+}
+
+.infoFullnameEmailTables {
+    width: auto;
+    display: inline-flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+    position: relative;
+    bottom: 8px;
+}
+
+.imgTables {
+    width: 40px;
+    height: 40px;
+    border-radius: 0.75rem;
+    margin: 10px;
+    object-fit: cover;
+}
+
+.boxJobDutyTables {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.boxJobDutyTables .jobTables {
+    margin: 0px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 0.75rem;
+    line-height: 1.25;
+    letter-spacing: 0.03333em;
+    opacity: 1;
+    text-transform: none;
+    vertical-align: unset;
+    text-decoration: none;
+    color: rgb(103, 116, 142);
+    font-weight: 500;
+}
+
+.boxJobDutyTables .dutyTables {
+    margin: 0px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 1.25;
+    letter-spacing: 0.03333em;
+    opacity: 1;
+    text-transform: none;
+    vertical-align: unset;
+    text-decoration: none;
+    color: rgb(131, 146, 171);
+}
+
+.TableUsers .status{
+    width: 60px;
+    height: auto;
+    padding: 6px;
+    border-radius: 0.35rem;
+    color: rgb(255, 255, 255);
+    /* padding: 1rem; */
+}
+
+.TableUsers .green{
+    background: linear-gradient(310deg, #17ad37, rgb(152, 236, 45));
+}
+
+.TableUsers .gray{
+    background: linear-gradient(310deg, rgb(98, 117, 148), rgb(168, 184, 216));
+}

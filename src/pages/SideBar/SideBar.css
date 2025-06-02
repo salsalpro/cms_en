@@ -1,0 +1,145 @@
+.SideBarLogop {
+    border-bottom: 1px solid #cdcdcd;
+    padding-bottom: 20px;
+}
+
+.SideBarLogop img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    position: relative;
+    top: 10px;
+    display: inline-block;
+    margin: 0 auto 10px;
+}
+
+.SideBarLogop span{
+    font-size: 15px;
+    text-align: right;
+    display: inline-block;
+    width: auto;
+    top: 10px;
+    position: relative;
+    text-align: center;
+}
+
+.doc-box {
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+    border-radius: 20px;
+    background-image: url('/public/components/background.jpeg');
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+    position: relative;
+}
+
+.doc-box::after {
+    position: absolute;
+    content: '';
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background-image: linear-gradient(310deg, rgb(33, 82, 255), rgb(33, 212, 253));
+    z-index: 0;
+    opacity: 0.65;
+}
+
+.doc-box button {
+    border-radius: 0.5rem;
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
+    margin: 10px;
+    color: rgb(33, 82, 255);
+    padding: 4px;
+    margin-bottom: 20px;
+}
+
+.doc-box button:hover {
+    background-color: #cdcdcd;
+}
+
+.doc-box p {
+    color: #fff;
+    font-size: 17px;
+    text-align: left;
+    display: block;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    margin: 10px;
+}
+
+.doc-box h3 {
+    color: #fff;
+    font-size: 15px;
+    text-align: left;
+    display: block;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    margin: 10px;
+}
+
+.doc-box a {
+    padding: 10px;
+    border-radius: 0.5rem;
+    margin: 10px auto;
+    display: block;
+    z-index: 1;
+    text-decoration: none;
+    position: relative;
+    text-align: center;
+    width: 70%;
+    color: rgb(95, 156, 255);
+}
+
+a.aup {
+    padding: 10px;
+    border-radius: 0.5rem;
+    margin: 10px auto;
+    display: block;
+    z-index: 1;
+    text-decoration: none;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    color: #5f9cff;
+    background-image: linear-gradient(310deg, rgb(33, 82, 255), #21d4fd);
+    color: #fff;
+}
+
+.container-sidbar{
+    max-height: 100vh;
+    overflow-y: scroll;
+    padding: 20px 20px 0 20px ;
+    width: 300px;
+    position: sticky;
+    top: 0;
+}
+
+.container-sidbar::-webkit-scrollbar{
+    width: 6px;
+    background-color: #cdcdcd ;
+    height: 6px;
+    border-radius: 5000px;
+}
+
+.container-sidbar::-webkit-scrollbar-thumb{
+    width: 6px;
+    background-color: #5f9cff ;
+    height: 50px !important;
+    border-radius: 5000px;
+}
+
+.container-sidbar::-webkit-scrollbar-track{
+    border-radius: 5000px;
+    width: 12px;
+    background-color: #cdcdcd;
+    height: 6px;
+}
